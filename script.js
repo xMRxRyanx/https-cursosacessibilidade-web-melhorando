@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', function () {
 const botaoDEAcessibilidade= document.getElementById('botao-acessibilidade')
 const opcoesDEAcessibilidade= document.getElementById('botao-acessibilidade')
 
-botaoDEAcessibilidade.addEventListener('click',function () {
-botaoDEAcessibilidade.classList.toggle('rotacao-botao');
-opcoesDEAcessibilidade.classList.toggle('apresenta-lista');
+botaoDeAcessibilidade.addEventListener('click',function () {
+botaoDeAcessibilidade.classList.toggle('rotacao-botao');
+opcoesDeAcessibilidade.classList.toggle('apresenta-lista');
 })
 
     const aumentaFonteBotao = document.getElementById('aumentar-fonte');
