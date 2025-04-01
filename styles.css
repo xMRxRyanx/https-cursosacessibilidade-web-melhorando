@@ -162,10 +162,12 @@ h2 {
     display: flex;
     flex-direction: column;
 }
-.opcoes-acessibilidade button{
+
+.opcoes-acessibilidade button {
     margin-bottom: 5px;
 }
-.apresenta-lista{
+
+.apresenta-lista {
     display: none;
 }
 
@@ -176,15 +178,24 @@ h2 {
 
 .auto-contraste header,
 .auto-contraste footer,
-.auto-contraste .formulario,
+.auto-contraste .formulario
 {
 background-color: var(--auto-contraste-fundo);
 color: var(--auto-contraste-texto);
 }
+
 .auto-contraste .botao-inicio,
 .auto-contraste .formulario,
-.auto-contraste .btn-primary{
-     background-color: var(--auto-contraste-link);
-     color: var(--auto-contraste-fundo);
-
+.auto-contraste .btn-primary {
+    background-color: var(--auto-contraste-link);
+    color: var(--auto-contraste-fundo);
+}
+.auto-contraste #tropicalia{
+    background: none;
+}
+.auto-contraste #galeria{
+    background-color: var(--auto-contraste-fundo);
+}
+.auto-contraste .fundo-galeria{
+    background: none;
 }
