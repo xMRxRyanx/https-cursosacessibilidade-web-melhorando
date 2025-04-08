@@ -9,7 +9,7 @@ opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
 })
 
     const aumentaFonteBotao = document.getElementById('aumentar-fonte');
-    const dimunuirFonteBotao = document.getElementById('diminuir-fonte');
+    const diminuirFonteBotao = document.getElementById('diminuir-fonte');
 
     let tamanhoAtualFonte = 1;
 
@@ -18,7 +18,7 @@ opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
          document.body.style.fontSize= `${tamanhoAtualFonte}rem`
     })
 
-    dimunuirFonteBotao.addEventListener('click',function(){
+    diminuirFonteBotao.addEventListener('click',function(){
         tamanhoAtualFonte -=0.1;
          document.body.style.fontSize= `${tamanhoAtualFonte}rem`
     })
