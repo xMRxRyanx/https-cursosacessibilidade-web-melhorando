@@ -1,5 +1,5 @@
 # Site acessível sobre Tropicália
-# Sobre
+## Sobre
 Refatoração de um site implementando recursos de acessibilidade no HTML, CSS e JS
 ## Recursos de acessibilidade
 - Atributos aria
