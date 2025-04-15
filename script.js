@@ -29,7 +29,7 @@ alternaContraste.addEventListener('click',function(){
     document.body.classList.toggle('auto-contraste')
 })
 })
-ScrollReveal().reveal('#inicio', { delay: 500 });
-ScrollReveal().reveal('#tropicalia', { delay: 500 });
-ScrollReveal().reveal('#galeria', { delay: 500 });
-ScrollReveal().reveal('#contato', { delay: 500 });
+ScrollReveal().reveal('#inicio', { delay: 1000 });
+ScrollReveal().reveal('#tropicalia', { delay: 1000 });
+ScrollReveal().reveal('#galeria', { delay: 1000 });
+ScrollReveal().reveal('#contato', { delay: 1000 });
